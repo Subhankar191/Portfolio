@@ -20,6 +20,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={ecoplate}
+              isBlog={false}
+              title="EcoPlate"
+              description="EcoPlate is a web-based platform designed to streamline food waste management and facilitate coordination between students, caterers, and administrators. The system provides role-based access to help stakeholders track, report, and reduce food waste effectively."
+              ghLink="https://github.com/Subhankar191/food-waste-management"
+              //demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={weathersphere}
               isBlog={false}
               title="WeatherSphere"
