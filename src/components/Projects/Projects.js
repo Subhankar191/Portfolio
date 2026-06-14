@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import collegemantra from "../../Assets/Projects/collegemantra.png";
 import fundflow from "../../Assets/Projects/fundflow.png";
 import weathersphere from "../../Assets/Projects/weathersphere.png";
+import ecoplate from "../../Assets/Projects/ecoplate.png";
 
 function Projects() {
   return (
